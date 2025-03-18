@@ -1,0 +1,110 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+{% block slider %}
+<div class="row slider">
+    <div class="col">
+        <img src="{% static 'core/img/about-img.jpg' %}" class="w-100" alt="Responsive image">
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<main>
+    <!--Acerca de - contenido -->
+    <div class="container">
+        <div class="row contenedor">
+            <div class="col">
+                <h2 class="titulo">PERFIL PROFESIONAL</h2>
+                <div class="row projects justify-content-center">
+                    <div class="col-12 col-lg-3 col-md-3">
+                        <img src="{% static 'core/img/foto_curriculo.jpeg '%}" class="rounded-circle w-100" alt="...">
+                        <hr>
+                        <p class="text-center">Edwin Orlando Castro</p>
+                        <hr>
+                    </div>
+                    <div class="col-12 col-lg-9 col-md-9">
+                        <h5 class="title-project">Edwin Orlando Castro</h5>
+                        <p>Soy analista y desarrollador de software con más de tres años de experiencia en el diseño, desarrollo,
+                            implementación y mantenimiento de aplicaciones web. Poseo sólidos conocimientos en diversas tecnologías,
+                            incluyendo servidores, redes y múltiples lenguajes de programación, con un enfoque en la optimización, 
+                            escalabilidad y seguridad de sistemas.
+                        </p>
+                        <p>Me especializo en la creación de soluciones tecnológicas eficientes, adaptables y de alto rendimiento,
+                            aplicando metodologías ágiles para garantizar el éxito de los proyectos. Cuento con habilidades
+                            analíticas y de resolución de problemas, permitiéndome enfrentar desafíos con creatividad e innovación.
+                        </p>
+                        <p>Además, me destaco por mi capacidad de adaptación a distintos entornos laborales, aportando nuevas
+                            ideas y fomentando la colaboración en equipo. Mi compromiso con el aprendizaje continuo me permite
+                            estar siempre actualizado con las últimas tendencias tecnológicas, brindando así soluciones innovadoras
+                            y efectivas.
+                        </p>
+                    </div>
+                </div>
+
+                <h2 class="titulo">HABILIDADES PRINCIPALES</h2>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-3 col-md-3">
+                        <p class="label text-center">JAVASCRIPT</p>
+                    </div>
+                    <div class="col-12 col-lg-9 col-md-9">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70"
+                                aria-valuemin="0" aria-valuemax="100">70%</div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-3 col-md-3">
+                        <p class="label text-center">REACT</p>
+                    </div>
+                    <div class="col-12 col-lg-9 col-md-9">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75"
+                                aria-valuemin="0" aria-valuemax="100">75%</div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-3 col-md-3">
+                        <p class="label text-center">ANGULAR</p>
+                    </div>
+                    <div class="col-12 col-lg-9 col-md-9">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75"
+                                aria-valuemin="0" aria-valuemax="100">75%</div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-3 col-md-3">
+                        <p class="label text-center">SQL SERVER</p>
+                    </div>
+                    <div class="col-12 col-lg-9 col-md-9">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80"
+                                aria-valuemin="0" aria-valuemax="100">80%</div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-3 col-md-3">
+                        <p class="label text-center">PYTHON</p>
+                    </div>
+                    <div class="col-12 col-lg-9 col-md-9">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60"
+                                aria-valuemin="0" aria-valuemax="100">60%</div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3 col-md-3">
+                        <p class="label text-center">NODE.JS</p>
+                    </div>
+                    <div class="col-12 col-lg-9 col-md-9">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="65"
+                                aria-valuemin="0" aria-valuemax="100">65%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+{% endblock %}

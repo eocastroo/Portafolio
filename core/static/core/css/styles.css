@@ -1,0 +1,160 @@
+body{
+    background: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+    color: #0A1D56;
+}
+
+header{
+    margin-top: 30px;
+    background: #f2f2f2; /* Color morado */
+}
+
+header .nav{
+    min-height: 80px;
+    overflow: hidden;
+    background: #6D42C7; /* Color más claro para mejor visibilidad */
+    border-radius: 10px;
+}
+
+/* Logo */
+header .logo a,
+header .logo samp,
+header .logo p{
+    font-size: 16px;
+    display: inline-block;
+    margin: 0;
+}
+
+header .logo .nombre{
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+header .logo .icono{
+    color: #bfbfbf;
+}
+header .logo p{
+    color: #ffffff;
+}
+
+/* Menu de navegación */
+header .menu{
+    padding: 0;
+}
+
+header .menu a{
+    display: block;
+    padding: 0 30px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #6D42C7; /* Color morado */
+    padding: 12px 18px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+header .menu a:hover{
+    background: #FFFFFF;
+    color: #6D42C7 !important;
+    transform: scale(1.1);
+}
+
+header .menu .c-1, .menu .c-2, .menu .c-3 {
+    background: #6D42C7;
+}
+
+header .menu .c-1:hover, .menu .c-2:hover, .menu .c-3:hover {
+    background: #9C72E4;
+}
+
+/* Slider */
+.slider{
+    margin-bottom: 40px;
+}
+.slider .col{
+    padding: 0;
+}
+
+/* Portafolio */
+.contenedor{
+    background: #fff;
+    border-top: 5px solid #6D42C7;
+    padding: 0 20px;
+}
+
+.titulo, .title-project{
+    padding: 40px 0;
+    text-align: center;
+    color: #6D42C7;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.contenedor .projects .content-project .link-project{
+    background: #6D42C7;
+    display: inline-block;
+    color: #fff;
+}
+
+.contenedor .projects .content-project .link-project:hover{
+    background: #9C72E4;
+    display: inline-block;
+    color: #fff;
+}
+
+/* Contacto */
+.contacto{
+    padding: 10px 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.contacto .icono{
+    width: 80px;
+    height: 80px;
+    font-size: 40px;
+    line-height: 80px;
+    color: #fff;
+    text-align: center;
+    background: #007bff;
+    display: inline-block;
+    margin: 0px 20px;
+    text-decoration: none;
+    border-radius: 80px;
+    transition: all .3s ease;
+    overflow: hidden;
+}
+
+.contacto .icono:hover {
+    background: #1E40AF;
+}
+
+/* Footer */
+.redes-sociales{
+    padding: 40px 0;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.redes-sociales .icono{
+    width: 80px;
+    height: 80px;
+    font-size: 40px;
+    line-height: 80px;
+    color: #fff;
+    text-align: center;
+    background: #6D42C7;
+    display: inline-block;
+    margin: 0px 20px;
+    text-decoration: none;
+    border-radius: 80px;
+    transition: all .3s ease;
+}
+
+.redes-sociales .icono:hover{
+    background: #9C72E4;
+}
